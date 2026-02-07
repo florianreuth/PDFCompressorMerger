@@ -36,12 +36,12 @@ Your final compressed PDF is ready to share or archive.
 ### Downloads
 
 You can download the latest jar file
-from [my build server](https://build.florianmichael.de/job/PDFCompressorMerger), [GitHub Actions](https://github.com/FlorianMichael/PDFCompressorMerger/actions)
-or use the [releases tab](https://github.com/FlorianMichael/PDFCompressorMerger/releases).
+from [my build server](https://build.florianreuth.de/job/PDFCompressorMerger), [GitHub Actions](https://github.com/florianreuth/PDFCompressorMerger/actions)
+or use the [releases tab](https://github.com/florianreuth/PDFCompressorMerger/releases).
 
 ## Contact
 
 If you encounter any issues, please report them on the
-[issue tracker](https://github.com/FlorianMichael/PDFCompressorMerger/issues).
+[issue tracker](https://github.com/florianreuth/PDFCompressorMerger/issues).
 If you just want to talk or need help with PDFCompressorMerger, feel free to join my
-[Discord](http://florianmichael.de/discord).
+[Discord](http://florianreuth.de/discord).

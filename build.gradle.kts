@@ -1,9 +1,9 @@
-import de.florianmichael.baseproject.setupProject
-import de.florianmichael.baseproject.configureApplication
-import de.florianmichael.baseproject.configureShadedDependencies
+import de.florianreuth.baseproject.setupProject
+import de.florianreuth.baseproject.configureApplication
+import de.florianreuth.baseproject.configureShadedDependencies
 
 plugins {
-    id("de.florianmichael.baseproject.BaseProject")
+    id("de.florianreuth.baseproject")
 }
 
 setupProject()
