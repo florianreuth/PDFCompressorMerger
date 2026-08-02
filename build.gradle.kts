@@ -1,6 +1,6 @@
+import de.florianreuth.baseproject.core.configureApplication
+import de.florianreuth.baseproject.core.configureShadedDependencies
 import de.florianreuth.baseproject.setupProject
-import de.florianreuth.baseproject.configureApplication
-import de.florianreuth.baseproject.configureShadedDependencies
 
 plugins {
     id("de.florianreuth.baseproject")
