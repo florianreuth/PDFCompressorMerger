@@ -31,11 +31,6 @@ java -jar pdf.jar thesis.pdf part1.pdf part2.pdf notes.pdf
 
 Your final compressed PDF is ready to share or archive.
 
-## Links
-
-- Releases: https://github.com/florianreuth/PDFCompressorMerger/releases
-- Dev builds: https://build.florianreuth.de/job/PDFCompressorMerger
-
 ## Contact
 
 - Issues: https://github.com/florianreuth/PDFCompressorMerger/issues
