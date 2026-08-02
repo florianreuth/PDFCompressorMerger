@@ -22,6 +22,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import javax.imageio.ImageIO;
+import org.apache.pdfbox.Loader;
 import org.apache.pdfbox.multipdf.PDFMergerUtility;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDPage;
@@ -49,7 +50,7 @@ public final class Main {
         merger.setDestinationFileName("merged_temp.pdf");
         merger.mergeDocuments(null);
 
-        try (final PDDocument merged = PDDocument.load(new File("merged_temp.pdf"));
+        try (final PDDocument merged = Loader.loadPDF(new File("merged_temp.pdf"));
              final PDDocument compressed = new PDDocument()) {
 
             final PDFRenderer renderer = new PDFRenderer(merged);
