@@ -12,5 +12,5 @@ configureApplication()
 val shade = configureShadedDependencies()
 
 dependencies {
-    shade("org.apache.pdfbox:pdfbox:2.0.30")
+    shade("org.apache.pdfbox:pdfbox:3.0.8")
 }
