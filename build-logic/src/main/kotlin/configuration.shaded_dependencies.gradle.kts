@@ -1,5 +1,7 @@
+// https://github.com/florianreuth/BaseProject
+
 plugins {
-    java
+    id("base.java")
 }
 
 val shadedDependencies = configurations.create("shadedDependencies") {
@@ -13,7 +15,11 @@ configurations.implementation {
 
 tasks.jar {
     dependsOn(shadedDependencies)
-    from({ shadedDependencies.map { zipTree(it) } }) {
+    from({
+        shadedDependencies.map {
+            zipTree(it)
+        }
+    }) {
         exclude("META-INF/*.RSA", "META-INF/*.SF", "META-INF/*.DSA")
     }
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE

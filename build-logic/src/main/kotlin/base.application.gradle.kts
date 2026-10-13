@@ -1,5 +1,7 @@
+// https://github.com/florianreuth/BaseProject
+
 plugins {
-    java
+    id("base.java")
 }
 
 val applicationMain = property("application_main") as String
